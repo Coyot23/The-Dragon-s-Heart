@@ -10,5 +10,6 @@ function s.initial_effect(c)
 	c:RegisterEffect(e1)
 end
 function s.activate(e,tp,eg,ep,ev,re,r,rp)
-	Duel.Win(1-tp,0x6)
+	Duel.Win(1-tp,0x99)
+
 end
